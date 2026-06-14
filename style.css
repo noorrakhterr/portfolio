@@ -29,6 +29,7 @@ body {
   background: var(--bg);
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
+  padding-bottom: 5rem;
 }
 
 a {
@@ -511,20 +512,22 @@ ul {
 /* ===== FLOATING SOCIAL BAR ===== */
 .social-bar {
   position: fixed;
-  bottom: 1.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 200;
+  bottom: 1.75rem;
+  left: 0;
+  right: 0;
+  width: fit-content;
+  margin: 0 auto;
+  z-index: 9999;
   display: flex;
   align-items: center;
   gap: 0.25rem;
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border: 1px solid var(--border);
   border-radius: 100px;
   padding: 0.5rem 0.75rem;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08), 0 1px 4px rgba(196,179,232,0.2);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(196,179,232,0.25);
 }
 
 .social-btn {
