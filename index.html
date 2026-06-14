@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noor Akhter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <section id="hero" class="hero fade-in">
+    <div class="hero-inner">
+      <h1 class="hero-title">Hi, I'm Noor!</h1>
+      <p class="hero-sub">
+        Recent(ish) Computer Science &amp; Politics grad from Pomona College based out of Seattle — aiming to make a transition from Customer Success to Product work. Passion for building solutions with value rooted in user needs &amp; customer empathy. Fueled by matcha and Steph Curry highlights.
+      </p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about section-padding fade-in">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="section-title">about</h3>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="about-layout">
+        <div class="about-tabs-col">
+          <div class="tab-nav">
+            <button class="tab-btn active" data-tab="about-tab">About</button>
+            <button class="tab-btn" data-tab="skills-tab">Skills</button>
+            <button class="tab-btn" data-tab="education-tab">Education</button>
+          </div>
+
+          <div class="tab-content" id="about-tab">
+            <p>
+              I graduated from Pomona College in May 2025 with a double major in Politics &amp; Computer Science, equipping me with both the hard and soft skills necessary to take on a people-facing technical role.
+            </p>
+            <p>
+              Since graduating I've been at Okta on the Customer Success team, where I manage product adoption strategy for 93 at-risk accounts impacting ~$8M ARR and serve as the voice of the customer — synthesizing feedback from 300+ customers into actionable product insights delivered directly to Okta's product teams. That experience has shaped how I think about product: I care deeply about the gap between what's built and what users actually need, and I know how to close it.
+            </p>
+            <p>
+              In my free time, I'm heading to new restaurants to add to my Beli, making a new Spotify playlist, reading at one of Seattle's many beautiful parks, or trying my hand at a new creative hobby (bead embroidery is my choice right now).
+            </p>
+            <p class="contact-line">
+              I'm open to entry level, full-time product roles — contact me <a href="mailto:rnoor2004@gmail.com" class="accent-link">here</a>!
+            </p>
+          </div>
+
+          <div class="tab-content hidden" id="skills-tab">
+            <div class="skills-grid">
+              <div class="skill-group">
+                <h4>Languages</h4>
+                <ul>
+                  <li>Python</li>
+                  <li>SQL</li>
+                  <li>Java</li>
+                  <li>C</li>
+                  <li>HTML &amp; CSS</li>
+                  <li>R</li>
+                  <li>SML</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h4>Tools &amp; Platforms</h4>
+                <ul>
+                  <li>Tableau</li>
+                  <li>Zapier / AirTable</li>
+                  <li>Streamlit</li>
+                  <li>Git &amp; GitHub</li>
+                  <li>Salesforce</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h4>Product &amp; Research</h4>
+                <ul>
+                  <li>User research &amp; interviews</li>
+                  <li>Roadmapping</li>
+                  <li>Data analysis</li>
+                  <li>Voice of the customer</li>
+                  <li>Cross-functional alignment</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-content hidden" id="education-tab">
+            <div class="edu-block">
+              <div class="edu-header">
+                <div class="edu-title-col">
+                  <span class="edu-school">Pomona College</span>
+                  <span class="edu-degree">B.A. Computer Science &amp; Politics</span>
+                  <span class="edu-location">Claremont, CA &nbsp;·&nbsp; GPA: 3.85 / 4.0</span>
+                </div>
+                <span class="edu-dates">Aug 2021 – May 2025</span>
+              </div>
+              <div class="edu-courses">
+                <span class="courses-label">Relevant Coursework</span>
+                <div class="courses-grid">
+                  <div class="course-col">
+                    <span class="course-category">Computer Science</span>
+                    <ul>
+                      <li>Data Structures &amp; Algorithms</li>
+                      <li>Computer Systems (C)</li>
+                      <li>Programming Languages (SML)</li>
+                      <li>Database Systems (SQL)</li>
+                      <li>Machine Learning</li>
+                      <li>Human-Computer Interaction</li>
+                    </ul>
+                  </div>
+                  <div class="course-col">
+                    <span class="course-category">Politics &amp; Research</span>
+                    <ul>
+                      <li>Research Methods &amp; Statistics (R)</li>
+                      <li>American Politics</li>
+                      <li>Asian American Political Behavior</li>
+                      <li>Political Theory</li>
+                      <li>Data &amp; Democracy</li>
+                      <li>Race, Ethnicity &amp; Politics</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="experience section-padding fade-in">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="section-title">experience</h3>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="accordion">
+
+        <!-- Okta - CS Specialist -->
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false">
+            <div class="acc-left">
+              <span class="company-name">Okta</span>
+              <div class="acc-meta">
+                <span class="role">Customer Success Specialist</span>
+                <span class="badge">Aug 2025 – Present</span>
+              </div>
+            </div>
+            <div class="acc-right">
+              <span class="chevron">&#8964;</span>
+            </div>
+          </button>
+          <div class="accordion-body">
+            <ul>
+              <li>Achieved 42% product adoption increase &amp; 91% engagement rate by driving end-to-end adoption strategy for 93 at-risk accounts impacting ~$8M ARR, leveraging AI to assess product success metrics.</li>
+              <li>Served as voice of the customer by synthesizing qualitative feedback from 300+ customers into actionable product insights delivered to Okta's product teams, actively contributing to improvements in the Okta FastPass product flow.</li>
+              <li>Built and executed customer-facing roadmaps translating complex technical requirements into structured 2-4 month deployment plans aligned to each customer's environment and business goals.</li>
+              <li>Designed and led the CS intern summer project: a Voice of the Customer program spanning multi-channel analysis, synthesizing findings into a strategic report with product gap recommendations and AI-powered process improvements.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Okta - CS Intern -->
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false">
+            <div class="acc-left">
+              <span class="company-name">Okta</span>
+              <div class="acc-meta">
+                <span class="role">Customer Success Intern</span>
+                <span class="badge">May – Aug 2024</span>
+              </div>
+            </div>
+            <div class="acc-right">
+              <span class="chevron">&#8964;</span>
+            </div>
+          </button>
+          <div class="accordion-body">
+            <ul>
+              <li>Developed the first strategic playbooks for Okta's emerging Scale Customer Success Team, translating success metrics and behavioral data into structured, automated workflows to drive MFA adoption across a low-engagement customer segment.</li>
+              <li>Collaborated cross-functionally with Sales, Product, and Marketing to identify friction points in the customer journey, synthesizing insights to inform playbook strategies that reduced churn and accelerated product adoption.</li>
+              <li>Presented newly developed playbooks to internal stakeholders before piloting with a beta group of Scale customers — building the foundation for the playbooks used across the org today.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Rank the Vote -->
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false">
+            <div class="acc-left">
+              <span class="company-name">Rank the Vote</span>
+              <div class="acc-meta">
+                <span class="role">Data &amp; Tech Intern</span>
+                <span class="badge">May – Aug 2023</span>
+              </div>
+            </div>
+            <div class="acc-right">
+              <span class="chevron">&#8964;</span>
+            </div>
+          </button>
+          <div class="accordion-body">
+            <ul>
+              <li>Owned the full product lifecycle of the Rhode Island branch website from build to deployment using HTML &amp; CSS.</li>
+              <li>Built Python automations integrating Zapier, AirTable, and the NationBuilder API in collaboration with the engineering team to streamline volunteer workflows.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Research Assistant -->
+        <div class="accordion-item">
+          <button class="accordion-header" aria-expanded="false">
+            <div class="acc-left">
+              <span class="company-name">Pomona College — Politics Department</span>
+              <div class="acc-meta">
+                <span class="role">Research Assistant</span>
+                <span class="badge">May 2022 – Jun 2024</span>
+              </div>
+            </div>
+            <div class="acc-right">
+              <span class="chevron">&#8964;</span>
+            </div>
+          </button>
+          <div class="accordion-body">
+            <ul>
+              <li>Led 20+ structured interviews with advocates and politicians, condensing insights into a 15-page case study for Professor Sara Sadhwani's forthcoming book — translating user research into clear, actionable narratives.</li>
+              <li>Built a national database of redistricting commissioners and administered a large-scale survey, applying data collection and analysis to surface trends for academic publication.</li>
+              <li>Conducted mixed-methods research on Asian American political representation in Georgia, synthesizing quantitative voting data and qualitative interview findings to identify behavioral patterns across key districts.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects section-padding fade-in">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="section-title">projects</h3>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Customer Churn Risk Predictor -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <div class="project-img-placeholder">
+              <span>screenshot coming soon</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title-row">
+              <h3 class="project-name">Customer Churn Risk Predictor</h3>
+              <div class="project-links">
+                <a href="#" aria-label="Live demo" class="icon-link" title="Live demo">&#8599;</a>
+                <a href="#" aria-label="GitHub" class="icon-link" title="GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <p class="project-desc">An AI-powered end-to-end churn prediction tool for B2B SaaS Customer Success teams. Defined the problem space from CSM domain knowledge, synthesized a realistic 8,000-account dataset, trained an XGBoost classifier (0.87 PR-AUC), and deployed a Streamlit app with SHAP-based explanations and action recommendations.</p>
+            <div class="project-stack">
+              <span class="stack-label">TECH STACK</span>
+              <div class="stack-links">
+                <a href="https://www.python.org" target="_blank" rel="noopener">Python</a>
+                <a href="https://xgboost.readthedocs.io" target="_blank" rel="noopener">XGBoost</a>
+                <a href="https://streamlit.io" target="_blank" rel="noopener">Streamlit</a>
+                <a href="https://shap.readthedocs.io" target="_blank" rel="noopener">SHAP</a>
+              </div>
+            </div>
+            <span class="project-status completed">&#9679; Completed</span>
+          </div>
+        </div>
+
+        <!-- Placeholder 2 -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <div class="project-img-placeholder">
+              <span>screenshot coming soon</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title-row">
+              <h3 class="project-name">Project Two</h3>
+              <div class="project-links">
+                <a href="#" aria-label="Live site" class="icon-link" title="Live site">&#8599;</a>
+                <a href="#" aria-label="GitHub" class="icon-link" title="GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <p class="project-desc">Add your project description here — what it does, why you built it, what problem it solves.</p>
+            <div class="project-stack">
+              <span class="stack-label">TECH STACK</span>
+              <div class="stack-links">
+                <a href="#" target="_blank" rel="noopener">Tool 1</a>
+                <a href="#" target="_blank" rel="noopener">Tool 2</a>
+              </div>
+            </div>
+            <span class="project-status in-progress">&#9679; In Progress</span>
+          </div>
+        </div>
+
+        <!-- Placeholder 3 -->
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <div class="project-img-placeholder">
+              <span>screenshot coming soon</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title-row">
+              <h3 class="project-name">Project Three</h3>
+              <div class="project-links">
+                <a href="#" aria-label="Live site" class="icon-link" title="Live site">&#8599;</a>
+                <a href="#" aria-label="GitHub" class="icon-link" title="GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <p class="project-desc">Add your project description here — what it does, why you built it, what problem it solves.</p>
+            <div class="project-stack">
+              <span class="stack-label">TECH STACK</span>
+              <div class="stack-links">
+                <a href="#" target="_blank" rel="noopener">Tool 1</a>
+                <a href="#" target="_blank" rel="noopener">Tool 2</a>
+              </div>
+            </div>
+            <span class="project-status completed">&#9679; Completed</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Noor Akhter &mdash; built with care, probably while sipping matcha.</p>
+      <div class="footer-links">
+        <a href="mailto:rnoor2004@gmail.com">Email</a>
+        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING SOCIAL BAR -->
+  <div class="social-bar">
+    <!-- GitHub -->
+    <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub" class="social-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+    </a>
+    <!-- LinkedIn -->
+    <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+    <!-- Mail -->
+    <a href="mailto:rnoor2004@gmail.com" aria-label="Email" class="social-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
