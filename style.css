@@ -73,6 +73,28 @@ ul {
   max-width: var(--max-w);
   margin: 0 auto;
   padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-img-wrap {
+  flex-shrink: 0;
+  width: 260px;
+}
+
+.hero-img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 16px;
+  display: block;
 }
 
 .hero-title {
@@ -752,6 +774,16 @@ ul {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
+  .hero-inner {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .hero-img-wrap {
+    width: 180px;
+    align-self: flex-start;
+  }
+
   .hero-title {
     font-size: clamp(2.6rem, 10vw, 3.8rem);
   }
