@@ -37,6 +37,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 ul {
   list-style: none;
 }
@@ -85,15 +90,17 @@ ul {
 
 .hero-img-wrap {
   flex-shrink: 0;
-  width: 260px;
+  width: 240px;
+  height: 300px;
+  border-radius: 16px;
+  overflow: hidden;
 }
 
 .hero-img {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  height: 100%;
   object-fit: cover;
   object-position: top;
-  border-radius: 16px;
   display: block;
 }
 
